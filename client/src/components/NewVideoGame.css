@@ -1,0 +1,288 @@
+
+.contenedor2{
+position: absolute;
+    background: url('https://cdn.computerhoy.com/sites/navi.axelspringer.es/public/media/image/2021/07/ea-propone-dejar-usar-termino-gamer-porque-considera-anticuado-explica-2419367.jpg');
+    width: 214vh;
+    height: 100vh;
+    background-size: cover;
+    display: flex;
+
+}
+form {
+    display: flex;
+    flex-direction: column;
+    background-color: #f9f9f9b0;
+    padding: 20px;
+    border-radius: 10px;
+    
+    }
+    
+    /* .tem1 input{
+        padding-right: 30px;
+        margin-left: 10px;
+        border-radius: 5px;
+        height: 15px;
+        align-items: center;
+    }
+     */
+    .act h1{
+        margin-top: 40px;
+        
+    }
+    .imagen img{
+        position:fixed;
+        /* padding-right: 30px;
+        margin-left: 10px;
+        border-radius: 5px; */
+        height: 800px;
+        align-items: center;
+        transform: translate(60%, 0%);
+    }
+    .dur1 input{
+        padding-right: 30px;
+        margin-left: 10px;
+        border-radius: 5px;
+        height: 25px;
+        align-items: center;
+    }
+    
+    .imagen h1{
+        font-size: 60px;
+        color: #fafcfe;
+        -webkit-text-stroke: 2px rgb(5, 5, 5);
+        padding-top: 5px;
+        font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        font: bold;
+        padding-bottom: 15px;
+
+    }
+    
+    .act{
+        display: flex;
+        flex-direction: column;
+        align-items: stretch;
+    }
+    .divOcc img{
+        height: 100px;
+        width: 150px;
+        padding: 10px;
+    }
+    
+    .caja-de-generos{
+        display: flex;
+        height: 400px;
+        width: 400px;
+        margin-top: 20px;
+        align-items: center;
+        flex-direction: row;
+        border-radius: 5px;
+        justify-content: flex-start;
+        flex-wrap: wrap;
+        align-content: flex-start;
+       
+        
+    
+    }
+    .divOcc button{
+        transform: translate(400%, -53%);
+        border-radius: 5px;
+        height: 20px;
+        width: 20px;
+        border-color: #5A7E8C;
+        color: #fafcfe;
+        font: bold;
+        background-color: #5a7e8c92;
+        margin-top: 10px;
+        position:absolute;
+    
+        
+    
+    }
+    
+    .divOcc{
+        display: flex;
+        margin-top: 10px;
+        margin-left: 10px;
+        width: 100px;
+        height: 45px;
+        background-color: #747474be;
+        color: #f9f9f9;
+        align-items:flex-start;
+        flex-direction: row;
+        border-radius: 9px;
+        justify-content: space-between;
+        align-content: flex-start;
+        flex-wrap: nowrap;
+    }
+
+    .divOcc p{
+        margin-right: 5px;
+        margin-left: 5px;
+        margin-top: 5px;
+    }
+    
+    /* .act1 {
+        padding-bottom: 15px;
+    } */
+    
+    .dif1{
+        padding-bottom: 5px;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: flex-end;
+    }
+
+    .xd{
+        display: flex;
+        flex-direction: row;
+        align-items: stretch;
+        justify-content: space-evenly;
+    }
+
+    .xd input{
+        height: 10px;
+    }
+
+    .er{
+        margin-top: 10px;
+        padding-left: 50px;
+        
+    }
+    
+    .radios{
+        margin-top: 5px;
+        display: flex;
+        align-items: flex-end;
+        flex-direction: column;
+    }
+    .dur1{
+        padding-bottom: 5px;
+    }
+    .tem1{
+        padding-bottom: 5px;
+    }
+    .input-form label{
+        padding-right: 10px;
+        margin-left: 50px;
+        align-items: center;
+    }
+    .input-form input{
+        font-size: 20px;
+        width: 200px;
+        height: 30px;
+        margin-bottom: 5px;
+        align-items: center;
+    }
+
+    .input-form{
+        display: flex;
+
+    }
+    
+    
+    .g1{
+        display: flex;
+        flex-direction: column;
+        align-items: flex-end;
+    }
+    .g1 input{
+        border-radius: 10px;
+    }
+    .g1 label{
+        font-size: 25px;
+        font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        font: bold;
+    }
+
+
+
+    .g2{
+        display: flex;
+        flex-direction: column;
+        align-items: flex-end;
+        
+    }
+    .g2 input{
+        border-radius: 2px;
+    }
+    .g2 label{
+        font-size: 30px;
+        font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;;
+        font: bold;
+    }
+
+    .typesContainer{
+        margin-left: 50px;
+    }
+
+    .volver button{
+        margin-top: 10px;
+        border-radius: 10px;
+        width: 100px;
+        height: 40px;
+        color: #fafcfe;
+        background-color: #3B3F40;
+        font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;;
+        font: bold;
+        border-color: #f9f9f9;
+        font-size: 20px;
+        transform: translate(300%, 125%);
+    }
+    .creargame button{
+        border-radius: 5px;
+        width: 150px;
+        height: 50px;
+        font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;;
+        font: bold;
+        font-size: 20px;
+    }
+
+.error{
+    position:absolute;
+    align-items: center;
+    display: flex;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: #4D5959;
+    margin-top: 35px;
+}
+.error-gene{
+    position:absolute;
+    align-items: center;
+    display: flex;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: #4D5959;
+    margin-top: 8px;
+}
+
+.error-plat{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: #4D5959;
+    margin-top: 8px;
+}
+.separacion{
+    margin-bottom: 40px;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: center;
+}
+.typesContainer select{
+        width: 190px;
+        height: 30px;
+        border-radius: 5px;
+        color: #f9f9f9;
+        border-color: #373736;
+        font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        /* font: bold; */
+        background-color: #72747272 ;
+        font-size: 20px;
+        
+        justify-content: center;
+        flex-direction: column;
+        box-shadow: 0 9px 15px rgba(46, 47, 68, 0.505);
+    }  
+    
+
+
+   

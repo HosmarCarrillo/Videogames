@@ -1,10 +1,24 @@
+import { BrowserRouter, Route, Switch } from "react-router-dom";
+import LandingPage from "./components/LandingPage";
+import Home from "./components/Home";
+import NewVideoGame from "./components/NewVideoGame";
+import Detail from './components/Detail';
 import './App.css';
 
 function App() {
   return (
-    <div className="App">
-      <h1>Henry Videogames</h1>
+    <BrowserRouter>
+    <div>
+      <div className="App">
+      <Switch>
+            <Route exact path= '/' component= { LandingPage }/>
+            <Route path = '/home' component= { Home }/>
+            <Route path = '/videogames' component= {NewVideoGame}/>
+            <Route path = '/detail/:id' component= {Detail}/>
+      </Switch>
+      </div>
     </div>
+    </BrowserRouter>
   );
 }
 
