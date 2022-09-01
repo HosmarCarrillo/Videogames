@@ -3,6 +3,7 @@ const initialState = {
     allvideogames: [],
     gender: [],
     detail: [],
+    
 }
 
 function rootReducer(state = initialState, action) {
@@ -48,7 +49,6 @@ function rootReducer(state = initialState, action) {
                 if (!videoGamesFilterByGender.length ) {
                     alert("No hay video juegos de este genero")
                 }
-
             return {
                 ...state,
                     videogame: videoGamesFilterByGender.length? videoGamesFilterByGender: state.videogame
@@ -90,7 +90,6 @@ function rootReducer(state = initialState, action) {
                             return -1;
                         }
                             return 0;
-                        
                         })
                     : sortedArr
                 return {
@@ -98,7 +97,7 @@ function rootReducer(state = initialState, action) {
                         videogame: action.sortedArr === 'All'? sortedArr : OrderNu
                 }
         case 'ORDER_BY_RATING': 
-            const allVg = state.allvideogames;
+            const allVg = state.videogame;
             let ratingOrder = action.payload === 'asc'
                 ? allVg.sort(function(a,b){
                     if(a.rating > b.rating){
@@ -127,7 +126,6 @@ function rootReducer(state = initialState, action) {
                         return -1;
                     }
                         return 0;
-                    
                     })
                 : ratingOrder
             return {

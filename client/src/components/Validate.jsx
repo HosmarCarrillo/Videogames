@@ -2,7 +2,6 @@ export function validate(input){
     let errors = {};
     const urlImg = (url) => {
         return /(http(s?):)([/|.|\w|\s|-])*\.(?:jpg|gif|png|jpeg)/.test(url);}
-    
     if (!input.name.trim()){
         errors.name = 'Se requiere que ingreses un Nombre'
     }
@@ -12,18 +11,15 @@ export function validate(input){
     if (!input.releaseDate.trim()) {
         errors.releaseDate = 'Ingresa una fecha de Lanzamiento';
     }
-    if (!input.platforms.length) {
+    if (input.platforms.length<1) {
         errors.platforms = 'Selecciona alguna Plataforma';
     }
-    
     if ((!urlImg(input.image))) {
         errors.image = "Debes asignarle una imagen";
     }
     if (!input.gender) {
         errors.gender = "Debes seleccionar al menos un(1) Genero";
     }
-    
-    
     return errors;
 }
 

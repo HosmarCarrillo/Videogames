@@ -1,14 +1,8 @@
-.body{
-   
-    
-}
-
 .containerr {
     margin-top: 10px;
     display: flex;
     align-items: center;
     margin-bottom: 10px;
-    
 }
 
 .containerr input{
@@ -21,15 +15,6 @@
     border-bottom-left-radius: 0px;
     border-top-left-radius: 0px;
     box-shadow: 0 9px 15px rgba(46, 47, 68, 0.505);
-
-}
-
-
-
-.btnn {
-    /* margin-bottom: 10px; */
-    
-   
 }
 
 .btnn button {
@@ -45,8 +30,6 @@
     font-size: 18px;
     box-shadow: 0 9px 15px rgba(46, 47, 68, 0.505);
     cursor: pointer;
-    
-    
 }
 
 
