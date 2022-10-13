@@ -2,7 +2,7 @@
     position: absolute;
     background: url('https://media2.giphy.com/media/NKEt9elQ5cR68/giphy.gif');
     width: 215.8vh;
-    height: 690px;
+    height: 813px;
     background-size:cover;
     display: flex;
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
@@ -13,7 +13,7 @@
 button2{
     position: absolute;
     border-radius: 20px;
-    transform: translate(560%, 200%);
+    transform: translate(700%, 350%);
     background-color: rgba(240, 248, 255, 0.221);
     border-color: #995e85a2;
     height: 70px;
@@ -54,13 +54,13 @@ button2:hover {
     font-size: 100px;
     font-family:fantasy;
     font: bold;
-    transform: translate(10%, -15%);
+    transform: translate(20%, 55%);
     color: rgba(240, 248, 255, 0.79);
 }
 
 .texto h1{
     font-family:fantasy;
-    transform: translate(-10%, -90%);
+    transform: translate(40%, 90%);
     color: #22034942;
     -webkit-text-stroke: 0.1px rgba(251, 250, 250, 0.66);
     

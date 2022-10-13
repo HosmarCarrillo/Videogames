@@ -9,9 +9,9 @@ function App() {
   return (
     <BrowserRouter>
     <div>
-      <div className="App">
+      <div className="App">          
       <Switch>
-            <Route exact path= '/' component= { LandingPage }/>
+            <Route exact path = '/' component= { LandingPage }/>
             <Route path = '/home' component= { Home }/>
             <Route path = '/videogames' component= {NewVideoGame}/>
             <Route path = '/detail/:id' component= {Detail}/>

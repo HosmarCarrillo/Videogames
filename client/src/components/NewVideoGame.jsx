@@ -168,6 +168,7 @@ export default function VideoGameCreate() {
                 {errors.image && <p className="error">{errors.image}</p>} 
               </div>
             </div>
+            
             <div className="g1">
               <label>Plataformas:</label>
                 <div className="radios">

@@ -21,7 +21,7 @@ export default function Paginado ({videoGamePrePage, allVideoGames, paginado, cu
     return(
         <nav className='pag'>
             <ul className='pagination'>
-                <button onClick={(el)=>handleNext(el)}>Prev</button>
+                <button onClick={(el)=>handleNext(el)}> Prev </button>
                 { pageNumbers && pageNumbers.map(number =>(           
                 <li className='pagination' key={number}> 
                     <a onClick={()=> paginado (number)}>{number}</a>
