@@ -107,7 +107,7 @@ export default function Home () {
                         <div className='link'>
                             <Link className='crear' to= '/videogames' >CREAR NUEVO JUEGO</Link>
                         </div>
-                        <div className='barr3'>
+                        {/* <div className='barr3'>
                             <Paginado
                                 videoGamePrePage = {videoGamePrePage}
                                 allVideoGames = {allVideoGames.length}
@@ -115,20 +115,32 @@ export default function Home () {
                                 setCurrentPage={setCurrentPage}
                                 currentPage={currentPage}
                             />
-                        </div>
+                        </div> */}
                     </div>
-                </div>                            
-                <div className= "container grid">
-                {currentVideoGame.map((g)=>{
-                    return ( 
-                        <div key={g.id} className='item'>
-                            <Link to= {`/detail/${g.id}`}>              
-                                <Card name= {g.name} image= {g.image} rating={g.rating}/>
-                            </Link> 
-                        </div>         
-                    );
-                })};
                 </div> 
+                <div>
+                    <div className= "container grid">
+                    {currentVideoGame.map((g)=>{
+                        return ( 
+                            <div key={g.id} className='item'>
+                                <Link to= {`/detail/${g.id}`}>              
+                                    <Card name= {g.name} image= {g.image} rating={g.rating}/>
+                                </Link> 
+                            </div>         
+                        );
+                    })};
+                    </div> 
+                    <div className='barr3'>
+                        <Paginado
+                            videoGamePrePage = {videoGamePrePage}
+                            allVideoGames = {allVideoGames.length}
+                            paginado = {paginado}
+                            etCurrentPage={setCurrentPage}
+                            currentPage={currentPage}
+                            />
+                    </div>
+                    
+                </div>                           
             </div>
             ):
             <div className="gif">

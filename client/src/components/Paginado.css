@@ -1,5 +1,6 @@
 .pagination{
-  height: 20px;
+  height: 35px;
+  
 }
 
 ul.pagination {
@@ -11,15 +12,16 @@ ul.pagination {
 }
   
 ul.pagination li {
+  margin-top: 6px;
   display: inline;
 }
   
 ul.pagination li a {
-  color: rgb(248, 251, 248);
+  color: rgb(251, 252, 251);
   font-family:unset;
+  font-size: 22px;
   float:inline-end;
   padding: 2px 10px;
-  margin-top: 5px;
   text-decoration:double;  
 }
     
@@ -51,14 +53,15 @@ ul.pagination li a:hover:not(.active) {
   background-color: #1D2F40;
   font: bold;
   border-radius: 10px;
-  padding: 0;
-  margin: 0;
+  padding: 5px;
+  margin: 0px;
 }
 
 .pagination  button:hover:not(.active) {
   background-color: #fbf9f7;
   color: rgb(0, 6, 0);
   border-radius: 10px;
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
   font: bold;
   cursor: pointer;
 }

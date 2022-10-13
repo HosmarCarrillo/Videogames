@@ -3,6 +3,7 @@
     display: flex;
     margin-left: 10px;
     margin-right: 10px;
+    margin-top: 20px;
 }
 
 .app-cont{
@@ -15,8 +16,8 @@
 .grid {
     display: grid;
     grid-template-columns: repeat(5, minmax(0,8fr));
-    gap: 0px 20px;
-    margin-top: 15px;
+    gap: 60px 28px;
+    margin-top: 55px;
 }
 
 .barr{
@@ -236,5 +237,5 @@ width: 90px;
 }
 .sub{
     position: absolute;
-    transform: translate(7%, 84%);
+    transform: translate(7%, 94%);
 }
